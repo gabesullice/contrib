@@ -1,0 +1,4 @@
+name = test
+description = "This module is to test various funtions."
+core = 7.x
+package = testing

@@ -4,3 +4,6 @@
 [submodule "includes/modules/custom/google_authorship"]
 	path = includes/modules/custom/google_authorship
 	url = http://git.drupal.org/project/google_authorship.git
+[submodule "includes/modules/contrib/devel"]
+	path = includes/modules/contrib/devel
+	url = http://git.drupal.org/project/devel.git

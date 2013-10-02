@@ -1,0 +1,11 @@
+<?php
+
+function test_node_load($nid = NULL, $vid = NULL, $reset = FALSE) {
+  $roles = array();
+
+  foreach (user_roles(TRUE) as $role_id => $role_name) {
+    $roles[$role_id] = $role_name;
+  }
+
+  dpm($roles);
+}
