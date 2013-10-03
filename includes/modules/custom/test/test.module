@@ -1,11 +1,15 @@
 <?php
 
 function test_node_load($nid = NULL, $vid = NULL, $reset = FALSE) {
-  $roles = array();
+//  $roles = array();
+//
+//  foreach (user_roles(TRUE) as $role_id => $role_name) {
+//    $roles[$role_id] = $role_name;
+//  }
+//
+//  dpm($roles);
+}
 
-  foreach (user_roles(TRUE) as $role_id => $role_name) {
-    $roles[$role_id] = $role_name;
-  }
-
-  dpm($roles);
+function test_form_alter(&$form, &$form_state, $form_id) {
+//  dpm($form_id);
 }

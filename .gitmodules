@@ -7,3 +7,9 @@
 [submodule "includes/modules/contrib/devel"]
 	path = includes/modules/contrib/devel
 	url = http://git.drupal.org/project/devel.git
+[submodule "includes/modules/contrib/admin_menu"]
+	path = includes/modules/contrib/admin_menu
+	url = http://git.drupal.org/project/admin_menu.git
+[submodule "includes/modules/contrib/metatag"]
+	path = includes/modules/contrib/metatag
+	url = http://git.drupal.org/project/metatag.git
